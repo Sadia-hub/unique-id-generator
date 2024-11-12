@@ -2,7 +2,7 @@
 
 A TypeScript-based **Unique ID Generator** inspired by **Twitter's Snowflake** algorithm. This generator creates unique, timestamp-based IDs using TypeScript's type system and features:
 
-- 41-bit timestamp (milliseconds since custom epoch)
+- 41-bit timestamp (milliseconds since custom epoch) which is 2024-11-12T19:29:28.672Z (1731439768672)
 - 5-bit datacenter ID 
 - 5-bit machine ID
 - 12-bit sequence number
