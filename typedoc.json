@@ -1,0 +1,7 @@
+{
+    "out": "docs",
+    "excludePrivate": true,
+    "excludeInternal": true,
+    "theme": "default",
+    "hideGenerator": true
+}

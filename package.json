@@ -1,12 +1,24 @@
 {
   "name": "unique-id-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "build": "tsc",
+    "generate-docs": "typedoc --out docs index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.26.11",
+    "typescript": "^5.6.3"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",               // Use ES module syntax (import/export)
+    "target": "ESNext",               // Output JavaScript with the latest features
+    "moduleResolution": "node",       // Resolve modules in a Node.js style
+    "esModuleInterop": true,          // Enable interoperability for default imports
+    "outDir": "./dist",               // Output directory for compiled JavaScript
+    "skipLibCheck": true,             // Skip type checking of declaration files
+    "strict": true,                   // Enable strict mode (optional, but recommended)
+    "forceConsistentCasingInFileNames": true
+  },       
+  "exclude": ["node_modules"]        // Exclude node_modules folder
+}
